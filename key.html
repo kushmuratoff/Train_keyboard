@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>key</title>
+    <script src="jquery-1.12.0.min.js"></script>
+
+    <style>
+        .canvasga
+        {
+            margin-left:30px;
+            margin-top:40px;
+            /*width:1200px;
+            height:250px;*/
+        }
+        .btnga
+        {
+            margin-left:30%;
+        }
+        a {
+            font-weight: bold;
+            color: #808080;
+        }
+        
+
+        #box {
+            color: #36c314;
+            font-family: 'Arial Rounded MT';
+            font-size: 50px;
+            height: 100px;
+            width: 100px;
+            position: relative;
+        }
+        #box1 {
+            color: #ff6a00;
+            font-family: 'Arial Rounded MT';
+            font-size: 40px;
+            height: 100px;
+            width: 100px;
+            /*margin-left: 90%;*/
+            position: relative;
+        }
+        #not {
+            color: #b724c2;
+            font-family: 'Arial Rounded MT';
+            font-size: 50px;
+            height: 100px;
+            width: 100px;
+            margin-left:90%;
+            position: relative;
+        }
+
+        #not1 {
+            color: #18589d;
+            font-family: 'Arial Rounded MT';
+            font-size: 40px;
+            height: 100px;
+            width: 100px;
+            position: relative;
+        }
+    </style>
+
+
+</head>
+<body>
+    <label id="uzunlik">1</label><label>&nbsp;so'z uzinligi</label>
+    <br />
+    <input type="button" value="+" onclick="pl()"/>
+    <input type="button" value="-" onclick="mn()"/>
+    <input type="button" value="start(F2)" class="btnga"  onclick="game()" />
+    <br />
+   <canvas id="canvas" width="1300" height="200"  class="canvasga">
+
+
+   </canvas>
+    <br />
+    <div>
+        <label id="box">1</label>
+        <label id="box1">1</label>
+    </div>
+    <br />
+    <label id="not"></label>
+    <label id="not1"></label>
+    <!--<img src="1.jpg"/>-->
+    <script src="key.js" ></script>
+</body>
+</html>
